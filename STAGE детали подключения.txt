@@ -1,0 +1,59 @@
+https://portal.stage.unityfinance.net/
+Брокер: Broker 2
+Счет: #1675 Boris Python FIX Lib
+Открыт доступ для IP:
+
+
+Market
+[DEFAULT]
+MaxScheduledWriteRequests=2000
+BeginString=FIX.4.4
+SocketSynchronousWrites=N
+SocketTcpNoDelay=Y
+SocketKeepAlive=Y
+PersistMessages=N
+StartTime=18:00:00
+EndTime=06:00:00
+StartDay=Sunday
+HeartBtInt=30
+SocketUseSSL=N
+DataDictionary=FIX44/UNITY_FIX44.xml
+ResetOnLogon=Y
+EndDay=Saturday
+SocketSendBufferSize=32768
+ReconnectInterval=2
+NeedClientAuth=N
+SocketTrafficClass=IPTOS_LOWDELAY
+ConnectionType=initiator
+[SESSION]
+SenderCompID=MARKET_1675_1
+TargetCompID=UNITY_RU_PROD
+SocketConnectHost=fix.stage.unityfinance.net
+SocketConnectPort=20000
+SocketConnectProtocol=TCP
+
+Password: m1adk,TZ
+
+
+
+Order
+[DEFAULT]
+BeginString=FIX.4.4
+DataDictionary=FIX44/UNITY_FIX44.xml
+StartTime=18:00:00
+EndTime=06:00:00
+EndDay=Saturday
+StartDay=Sunday
+ConnectionType=initiator
+HeartBtInt=30
+SocketUseSSL=N
+ReconnectInterval=2
+NeedClientAuth=N
+[SESSION]
+SenderCompID=ORDER_1675_2
+TargetCompID=UNITY_RU_PROD
+SocketConnectHost=fix.stage.unityfinance.net
+SocketConnectPort=20000
+SocketConnectProtocol=TCP
+
+Password: 2"`>xl.L
