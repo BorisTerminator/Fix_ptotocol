@@ -2,3 +2,5 @@ FIXenv
 fix_api.py
 helper.ipynb
 /*
+!.gitignore
+!.gitattributes
